@@ -1,0 +1,9 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/mainsrc/testsrc/mainsrc/testbuild/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

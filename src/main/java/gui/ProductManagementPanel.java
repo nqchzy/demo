@@ -322,7 +322,7 @@ public class ProductManagementPanel extends JPanel {
 
         switch (option) {
             case "↑ Mã SP (A-Z)":
-                sortedList.sort(Comparator.comparing(SanPham::getMaSP));
+                sortedList.sort(Comparator.comparing(SanPham::getmaSP));
                 break;
             case "↓ Mã SP (Z-A)":
                 sortedList.sort(Comparator.comparing(SanPham::getMaSP).reversed());
